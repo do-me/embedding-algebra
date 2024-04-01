@@ -10,8 +10,9 @@ Reading this [Medium Article](https://blog.esciencecenter.nl/king-man-woman-king
 ## Findings 
 **tl;dr** confirmed again: `King - Man + Woman = Queen` is pretty much never true!
 
-As the Medium article claims, it's always `King` that is most similar. `Queen` doesn't even come second always! 
-What's most interesting is that negative embeddings have the biggest impact, to the word `Man` will always rank last. 
+- As the Medium article claims, it's always `King` that is most similar. `Queen` doesn't even come second always! 
+- What's most interesting is that negative embeddings have the biggest impact, to the word `Man` will always rank last. 
+- Unsurprisingly, the instruction has a high impact on these results, like in the case of [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) where with instruction (that is not mentioned in the repo) it performs better than without.
 
 ## Scripts
 See the notebook in this repo to reproduce the results. I included all three, `Euclidian Distance`, `Dot Product` and `Cosine Similarity`. These are the results for [mixedbread-ai/mxbai-embed-large-v1](https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1):
