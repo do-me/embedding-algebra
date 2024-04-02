@@ -90,7 +90,7 @@ Euclidean distance between 'man' and analogy vector: 21.264333724975586
 ```
 
 ## PRs
-Highly appreciated, maybe some automization would be good the create a nicely formatted markdown table to be included in this readme.
+Highly appreciated, maybe some automization would be good the create a nicely formatted markdown table to be included in this readme listing the behavior of the most used embedding models. Would this even be something for MTEB?
 
 
 
