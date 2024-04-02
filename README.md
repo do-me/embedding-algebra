@@ -33,7 +33,7 @@ Cosine similarity between 'queen' and analogy vector: 0.9067744016647339
 So while `BAAI/bge-base-en-v1.5` takes a mathematical approach that the summed vector has the same distance to all of its summands, that's not the case for `mixedbread-ai/mxbai-embed-large-v1`.
 
 ## Scripts
-See the notebook in this repo to reproduce the results. I included all three, `Euclidian Distance`, `Dot Product` and `Cosine Similarity`. These are the results for [mixedbread-ai/mxbai-embed-large-v1](https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1):
+See the notebook in this repo to reproduce the results. I included all three, `Euclidian Distance`, `Dot Product` and `Cosine Similarity`. These are the [mixedbread-ai/mxbai-embed-large-v1](https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1) results for `King - Man + Woman`:
 
 ```
 Dot Product:
